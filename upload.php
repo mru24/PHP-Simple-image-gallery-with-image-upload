@@ -66,7 +66,7 @@ if(array_key_exists('upload', $_POST)):
   endforeach;
 endif;
 
-include('includes/header.php');
+include('inc/header.php');
 
 ?>
 
@@ -77,7 +77,7 @@ include('includes/header.php');
 
 <?php
 
-include('includes/imageCategories.php');
+include('inc/imageCategories.php');
 
 foreach ($categories as $category):
 ?>
@@ -117,4 +117,4 @@ if($fail):
 endif;
 ?>
 
-<?php include('includes/footer.php'); ?>
+<?php include('inc/footer.php'); ?>

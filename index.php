@@ -4,7 +4,7 @@
 
 <?php
 $dir = 'assets/images/';
-include('includes/imageCategories.php');
+include('inc/imageCategories.php');
 
 foreach ($categories as $key => $category):
 ?>
@@ -39,4 +39,4 @@ endforeach;
 
 </div>
 
-<?php include('includes/footer.php'); ?>
+<?php include('inc/footer.php'); ?>
