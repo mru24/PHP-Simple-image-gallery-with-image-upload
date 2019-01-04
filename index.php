@@ -1,4 +1,4 @@
-<?php include('includes/header.php'); ?>
+<?php include('inc/header.php'); ?>
 
 <div class="gallery">
 
