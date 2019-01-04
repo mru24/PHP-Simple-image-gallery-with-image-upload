@@ -6,10 +6,10 @@
 $dir = 'assets/images/';
 include('includes/imageCategories.php');
 
-foreach ($categories as $category):
+foreach ($categories as $key => $category):
 ?>
 
-  <div class="category">
+  <div class="category animated slideInUp delay-<?php echo $key/1.3; ?>s">
     <h1 class="title"><?php echo $category; ?></h1>
     <div class="images">
 

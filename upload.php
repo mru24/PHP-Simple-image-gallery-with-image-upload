@@ -1,6 +1,6 @@
 <?php
 
-define('TITLE', 'Multiple File Upload Form | WW Project Studio');
+// define('TITLE', 'Multiple File Upload Form | WW Project Studio');
 // Create Upload folder
 // mkdir('images', 0777, true);
 $success = false;
@@ -70,7 +70,7 @@ include('includes/header.php');
 
 ?>
 
-<form action="" method="post" enctype="multipart/form-data">
+<form class="animated slideInUp" action="" method="post" enctype="multipart/form-data">
   <h2 class="title">Multiple Files Upload Form</h2>
   <p>
     <select name="subfolder">
