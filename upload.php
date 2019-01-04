@@ -74,6 +74,7 @@ include('includes/header.php');
   <h2 class="title">Multiple Files Upload Form</h2>
   <p>
     <select name="subfolder">
+
 <?php
 
 include('includes/imageCategories.php');
@@ -84,6 +85,7 @@ foreach ($categories as $category):
 <?php
 endforeach;
 ?>
+
     </select>
   </p>
   <p>
